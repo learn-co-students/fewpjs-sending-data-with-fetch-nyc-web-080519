@@ -6,8 +6,8 @@ const submitData = (name, email) => {
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      name,
-      email
+      name: name,
+      email: email
     })
   })
   .then(resp => resp.json())
