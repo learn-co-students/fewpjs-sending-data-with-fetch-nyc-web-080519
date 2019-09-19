@@ -21,10 +21,10 @@ function submitData(name, email) {
         .then(function(json) {
             // console.log(json)
             // console.log(json.id)
-            document.body.innerHTML += `<h1>${json.id}</h1>`
+            document.body.insertAdjacentHTML("beforeend", `<h1>${json.id}</h1>`)
         })
         .catch(function(error) {
             // console.log(error.message)
-            document.body.innerHTML += `<h1>${error.message}</h1>`
+            document.body.insertAdjacentHTML("beforeend", `<h1>${error.message}</h1>`)
         })
 }
