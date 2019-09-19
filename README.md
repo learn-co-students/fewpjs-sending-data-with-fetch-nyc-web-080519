@@ -59,7 +59,7 @@ return the dog with the id of 1.
 Some example data is already present, stored in `db.json`. If the JSON
 server is running, you can also visit any of the above resources in a browser to
 see the data.
-
+<!--  -->
 The tests in this lab do not need JSON Server to be running, but if you would
 like to run tests while also running the server, open a second tab in your
 terminal.
